@@ -77,6 +77,26 @@
     font-weight: 600;
     border-width: 2px;
 }
+
+/* Mobile: ocupar horizontal total */
+@media (max-width: 768px) {
+    #ao-quiz-widget {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+    }
+}
+
+/* Desktop: ocupar vertical total (100vh) */
+@media (min-width: 769px) {
+    #ao-quiz-widget {
+        height: 100vh !important;
+        max-height: 100vh !important;
+        width: auto !important;
+        max-width: none !important;
+    }
+}
 </style>
 
 <script>
